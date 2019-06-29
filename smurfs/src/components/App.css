@@ -26,3 +26,122 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.Smurfs {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.Header {
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
+}
+
+.SmurfLayout {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.Smurf {
+  border-radius: 15px;
+  background-color: rgb(206, 233, 111); 
+  text-align: center;
+  color:  rgb(6, 4, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1px solid green;
+  margin-right: 28%;
+  margin-left: 24%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.SmurfActions {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.UpdateButton {
+  padding-left: 12px;
+  text-align: right;
+  color: darkgreen;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.DeleteButton {
+  padding-right: 12px;
+  text-align: right;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.SmurfForm {
+    border-radius: 15px;
+    background-color: rgb(206, 233, 111); 
+    padding: 20px;
+    margin-left: 25%;
+    margin-top: 1%;
+    opacity: 0.8;
+    border: 1px solid green;
+    margin-right: 28%;
+    margin-left: 24%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+input {
+    width: 80%;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding: 12px;
+    border: 1px solid black;
+    resize: vertical;
+    cursor: pointer;
+}
+
+form .button {
+    width: 200px;
+    height: 30px;
+    background-color: #45a049;
+    border-radius: 15px;
+    border: 1px solid green;
+}
+
+.NavBar {
+  background-color:rgb(206, 233, 111);;
+  border: 0;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid green;
+  opacity: 0.8;
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: green;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.inactive {
+  color: blue     ;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 20px;
+}
